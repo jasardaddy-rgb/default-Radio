@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>现实模拟器</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<header>
+  <h1>🌍 现实模拟器</h1>
+  <p>点击按钮，观察世界变化</p>
+</header>
+
+<div class="panel">
+  <button onclick="eventTrigger()">触发事件</button>
+</div>
+
+<div class="card">
+  <h2>📡 系统日志</h2>
+  <p id="log">等待初始化...</p>
+</div>
+
+<div class="card">
+  <h2>🌐 世界状态</h2>
+  <p id="world">正常</p>
+</div>
+
+<div class="card">
+  <h2>⚠️ 异常等级</h2>
+  <p id="level">0%</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
